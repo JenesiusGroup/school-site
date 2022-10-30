@@ -2,8 +2,6 @@
   --primary: rgba(4, 44, 89, 0.501);
 }
 body {
-
-
   margin: 0;
 }
 .header {
@@ -24,19 +22,19 @@ hr {
   height: 150px;
 }
 .memory {
-  position: relative;
+  position: absolute;
   width: 500px;
-  font-size: 50;
   font-family: "Inter";
   font-style: normal;
   color: grey;
+  font-size: 3vw;
 }
 
 .data {
   width: 300px;
   right: 13%;
-  font-size: 50;
-  position: relative;
+  font-size: 3vw;
+  position: absolute;
   font-family: "Inter";
   font-style: normal;
 }

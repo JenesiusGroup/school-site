@@ -1,0 +1,19 @@
+#map-wrap {
+    width: 40%;
+    min-width: 250px;
+}
+.map-image{
+    width: 100%;
+}
+.map-circle {
+    position: absolute;
+    height: 20px;
+    aspect-ratio: 1/1;
+    background-color: red;
+    border-radius: 50%;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.map-circle:hover{
+    transform: scale(0.85);
+}

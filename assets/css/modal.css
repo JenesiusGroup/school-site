@@ -1,0 +1,30 @@
+.modal-window-wrap {
+    position: fixed;
+    margin: auto auto;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.09);
+    z-index: 12;
+    display: grid;
+    place-content: center;
+}
+.modal-hidden{
+    display: none;
+}
+.modal-window{
+    background-color: white;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    display: grid;
+
+}
+.modal-window-label {
+    margin: 10px 0;
+}
+.modal-window-image{
+    width: 100%;
+}
